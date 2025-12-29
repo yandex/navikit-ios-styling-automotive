@@ -17,13 +17,13 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/yandex/navikit-ios", exact: "4.26.1"),
+        .package(url: "https://github.com/yandex/navikit-ios", exact: "4.29.0"),
     ],
     targets: [
         .binaryTarget(
             name: "YMKStylingAutomotiveNavigation",
-            url: "https://maps-ios-pods-public.s3.yandex.net/YMKStylingAutomotiveNavigation-4.26.1.framework.zip",
-            checksum: "4adb2c70178ad4782fc5dcc64b933cb6f205a2934b883973c18cfcf1e1b35c92"
+            url: "https://maps-ios-pods-public.s3.yandex.net/YMKStylingAutomotiveNavigation-4.29.0.framework.zip",
+            checksum: "62a26907790f2d1f86b714e903f1418b63962778b31bef9766a12d753817e992"
         ),
         .target(
             name: "YMKStylingAutomotiveNavigationResources",
