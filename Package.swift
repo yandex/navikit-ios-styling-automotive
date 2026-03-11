@@ -23,7 +23,7 @@ let package = Package(
         .binaryTarget(
             name: "YMKStylingAutomotiveNavigation",
             url: "https://maps-ios-pods-public.s3.yandex.net/YMKStylingAutomotiveNavigation-4.32.0.framework.zip",
-            checksum: "4e36979c708603e43fa84444ab9e404220f75b796549a7b9eada2c08a9854cef"
+            checksum: "1cbf465936954d46697a932e902d0113daf28e8cf40090a512808225d01cf997"
         ),
         .target(
             name: "YMKStylingAutomotiveNavigationResources",
