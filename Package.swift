@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "YMKStylingAutomotiveNavigation",
     defaultLocalization: "en",
-    platforms: [.iOS("12.0")],
+    platforms: [.iOS("15.0")],
     products: [
         .library(
             name: "YMKStylingAutomotiveNavigation",
@@ -17,13 +17,13 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/yandex/navikit-ios", exact: "4.33.1"),
+        .package(url: "https://github.com/yandex/navikit-ios", exact: "4.36.0"),
     ],
     targets: [
         .binaryTarget(
             name: "YMKStylingAutomotiveNavigation",
-            url: "https://maps-ios-pods-public.s3.yandex.net/YMKStylingAutomotiveNavigation-4.33.1.framework.zip",
-            checksum: "fc72bcfe53946a379f7f1e556c5b34bfacec13e43b44046c8e228bcf5fde007d"
+            url: "https://maps-ios-pods-public.s3.yandex.net/YMKStylingAutomotiveNavigation-4.36.0.framework.zip",
+            checksum: "8e506857ca80c44db892c4dbd785b88e6250d3445f5655ea181b14dcb17ff104"
         ),
         .target(
             name: "YMKStylingAutomotiveNavigationResources",
